@@ -1,0 +1,26 @@
+{
+  "name": "rollup-jsx",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "compile": "NODE_ENV=production && node --max-old-space-size=8192 node_modules/.bin/rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.17.5",
+    "@babel/plugin-syntax-jsx": "~7.16.7",
+    "@babel/preset-env": "~7.16.11",
+    "@babel/preset-react": "~7.16.7",
+    "@rollup/plugin-babel": "~5.3.1",
+    "@rollup/plugin-commonjs": "~21.0.1",
+    "@rollup/plugin-node-resolve": "~13.1.3",
+    "@types/node": "~17.0.21",
+    "acorn-jsx": "~5.3.2",
+    "rimraf": "~3.0.2",
+    "rollup": "~2.68.0",
+    "rollup-plugin-ignore": "~1.0.10",
+    "rollup-plugin-progress": "~1.1.2"
+  }
+}
